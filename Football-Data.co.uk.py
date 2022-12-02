@@ -3,9 +3,9 @@ import pandas as pd
 import base64
 import numpy as np
 
-st.title('Football Data App - Main Leagues')
+st.title('Football Data App')
 #st.subheader('Data Source')
-st.subheader('https://www.football-data.co.uk/')
+#st.subheader('https://www.football-data.co.uk/')
 
 st.sidebar.header('Leagues')
 selected_league = st.sidebar.selectbox('League', ['England','Scotland','Germany','Italy','Spain','France','Netherlands','Belgium','Portugal','Turkey','Greece'])
