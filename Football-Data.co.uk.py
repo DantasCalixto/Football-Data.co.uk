@@ -22,7 +22,7 @@ def load_data(league, year):
     if selected_league == 'Scotland':
         league = 'SC1'
     if selected_league == 'Germany':
-        league = 'G1'
+        league = 'D1'
     if selected_league == 'Italy':
         league = 'I1'
     if selected_league == 'Spain':
